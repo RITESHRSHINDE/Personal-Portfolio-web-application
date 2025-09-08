@@ -11,7 +11,7 @@ function Navdarr() {
 
 
 
-   <div id="navbar" className=" sticky  pr-0 h-20 w-full  bg-gray-500 items-center justify-center  sm:flex-grid ">
+   <div id="navbar" className=" sticky  pr-0 h-20 w-full  bg-red-500 items-center justify-center  sm:flex-grid ">
      <div className='flex item-center h-20 '>
       <div className="flex-wrap flex-shrink-0 items-center sm:flex">
         
