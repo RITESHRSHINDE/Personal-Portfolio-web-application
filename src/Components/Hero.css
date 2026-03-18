@@ -1,0 +1,19 @@
+
+*{
+margin: 0px;
+padding: 0px;
+}
+/* .profile{
+    height: 400px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/Ritesh_Shinde.png);
+    border-radius: 100%;
+
+} */
+.container{
+    height: 600px;
+    margin: 0px;
+    padding: 0px;
+}

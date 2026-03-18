@@ -1,6 +1,7 @@
 import React from 'react'
 import p1 from "../projects/project-1.webp"
 import Navbar from './Navbar'
+import index from "../Tictactoe/Tic"
 
 function Project(props) {
   return (
@@ -14,9 +15,8 @@ function Project(props) {
         
           <div className="text-white text-start items-center justify-center lg:w-1.5/2">
             <h1 className='text-2xl text-start p-5 pb-3 gap-6' >{props.project }<i className='text-black text-xl'>{props.languages} </i></h1>
-            <p className='p-5 pt-3 pb-3' >{props.discription} 
-
-</p>
+            <p className='p-5 pt-3 pb-3' >{props.discription} </p>
+            
 
            </div>
            </div>

@@ -11,7 +11,7 @@ function Projects () {
   return (
     <>
     <Navbar />
-    <div className='p-8 items-center justify-center text-center mb-0 bg-slate-800'>
+    <div className='p-1 items-center justify-center text-center mb-0 bg-slate-800'>
 
         <h2 className="text-center justify-center items-center mb-6  text-4xl text-white">Projects</h2>
 
@@ -21,7 +21,7 @@ function Projects () {
       <Project Project ="ROCK PAPER SEIOSERS" languages="HTML, CSS, JavaScript" p={p2} />
       <Project Project ="LIVE WETHER APPLICATION" languages="React JS, JavaScript, JSX" p={p3} />
       <Project Project ="PERSONAL PORTFOLIO" languages="React JS, JavaScript,TailWind CSS, JSX" p={p4} />
-      <Project Project ="SIMPLE CALAULATOR" languages="React JS, JavaScript,Tailwind Css, JSX" p={p0} />
+      <Project Project ="SIMPLE CALAULATOR" languages="React JS, JavaScript,Tailwind Css, JSX" p={p0}  />
        
       
     </div>

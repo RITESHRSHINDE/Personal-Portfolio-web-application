@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Calculator from './Calculator';
 import Navbar from './Navbar';
+import Tic from '../Tictactoe/Tic';
+import Hero from './Herosecond.jsx';
 
 function About() {
    let  [count, setcount] = useState(1);
@@ -111,7 +113,8 @@ const Todo= ({todo}) => {
    
 
    <Calculator />
-   
+    <Tic />
+    <Hero />
     </>
   )
 }

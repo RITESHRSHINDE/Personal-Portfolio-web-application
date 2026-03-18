@@ -1,6 +1,6 @@
 let boxes = document.querySelectorAll(".box");
-let resetbtn = document.querySelector("#btn");
-let newbtn = document.querySelector("#newbtn");
+let resetbtn = document.querySelector(".btn");
+let newbtn = document.querySelector(".newbtn");
 let gamemsgcon = document.querySelector(".msgcon");
 let msg = document.querySelector("#msg");
 
@@ -73,5 +73,5 @@ const checkwinner =()=>{
         }
     }
 };
-newbtn.addEventListener("click",resetGame);
-resetbtn.addEventListener("click",resetGame);
+newbtn.addEventListener("onclick",resetGame);
+resetbtn.addEventListener("onclick",resetGame);
